@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :locais
   resources :users
   resources :login
+  resources :cadastro
 
   get 'importar' => "risk_areas#csv_import"
 
